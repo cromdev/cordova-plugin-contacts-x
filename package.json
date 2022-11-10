@@ -23,7 +23,7 @@
   ],
   "author": "EinfachHans",
   "license": "MIT",
-  "main": "./src/typescript/index.js",
+  "main": "dist/index.js",
   "types": "./src/typescript/index.d.ts",
   "bugs": {
     "prepare": "npm run build",
