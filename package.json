@@ -26,6 +26,8 @@
   "main": "./src/typescript/index.js",
   "types": "./src/typescript/index.d.ts",
   "bugs": {
+    "prepare": "npm run build",
+    "build": "webpack src/index.js dist/index.js",
     "url": "https://github.com/EinfachHans/cordova-plugin-contacts-x/issues"
   },
   "scripts": {
