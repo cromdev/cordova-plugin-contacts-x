@@ -7,9 +7,11 @@ declare module 'cordova-plugin-contacts-x' {
     familyName?: boolean;
     phoneNumbers?: boolean;
     emails?: boolean;
+    organizationName?: boolean;
   }
 
   interface FindOptions {
     fields?: FindOptionsFields;
+    baseCountryCode?: string;
   }
 }
