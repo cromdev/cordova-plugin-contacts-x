@@ -5,7 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath 'com.android.tools.build:gradle:7.2.1'
     }
 }
 
@@ -18,13 +18,13 @@ repositories {
 
 
 dependencies {
-    compile 'com.googlecode.libphonenumber:libphonenumber:8.2.0'
+    implementation 'com.googlecode.libphonenumber:libphonenumber:8.13.0'
 }
 
 android {
     defaultConfig {
-        minSdkVersion 12
-        targetSdkVersion 22
+        minSdkVersion 22
+        targetSdkVersion 32
         multiDexEnabled true
     }
 
