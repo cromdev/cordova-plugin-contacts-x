@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EinfachHans/cordova-plugin-contacts-x.git"
+    "url": "git+https://github.com/cromdev/cordova-plugin-contacts-x.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -26,7 +26,7 @@
   "main": "./src/typescript/index.js",
   "types": "./src/typescript/index.d.ts",
   "bugs": {
-    "url": "https://github.com/EinfachHans/cordova-plugin-contacts-x/issues"
+    "url": "https://github.com/cromdev/cordova-plugin-contacts-x/issues"
   },
   "scripts": {
     "doctoc": "doctoc readme.md --github --title '**Table of Content**' --maxlevel 2"

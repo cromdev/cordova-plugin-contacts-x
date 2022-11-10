@@ -3,8 +3,8 @@
     <name>ContactsX</name>
     <description>Cordova Plugins for managing contacts</description>
 
-    <repo>https://github.com/EinfachHans/cordova-plugin-contacts-x</repo>
-    <issue>https://github.com/EinfachHans/cordova-plugin-contacts-x/issues</issue>
+    <repo>https://github.com/cromdev/cordova-plugin-contacts-x</repo>
+    <issue>https://github.com/cromdev/cordova-plugin-contacts-x/issues</issue>
 
     <license>MIT</license>
 	<js-module name="ContactsX" src="www/contactsX.js">
